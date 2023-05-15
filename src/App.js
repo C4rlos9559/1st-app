@@ -20,6 +20,7 @@ function App() {
       </header>*/}
       <div>
         <Title />
+        <Content />
       </div>
     </div>
   );
@@ -27,6 +28,9 @@ function App() {
 //JSX
 const Title = function (props) {
   return <h1>Mi primera aplicación</h1>;
+};
+const Content = () => {
+  return <p>Esta es mi primera aplicación en React, está padrísimo!</p>;
 };
 
 export default App;
